@@ -1,13 +1,12 @@
 package game.gameactions;
 
-import game.GUI;
 import game.Main;
-
-import javax.sql.rowset.Predicate;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.function.BooleanSupplier;
 
+/// Diese Klasse repräsentiert eine Aktion, die ein Spieler durchführen kann.
+/// Sie implementiert ActionListener. Finde heraus, warum.
 public class GameAction implements ActionListener {
 
     Runnable action;
@@ -21,6 +20,7 @@ public class GameAction implements ActionListener {
         this.condition = condition;
     }
 
+    // Hier wurde eine Methode überschrieben.
     @Override
     public void actionPerformed(ActionEvent e) {
         if(!Main.PLAYER.isAlive()) {
