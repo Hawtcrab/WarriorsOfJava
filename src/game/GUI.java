@@ -10,7 +10,7 @@ import javax.swing.text.StyledDocument;
 public class GUI extends JFrame {
 
     // Das Fenster, in welchem die Resultate der letzten Aktionen gezeigt werden.
-    private JTextPane textPane;
+    private JTextArea textPane;
     // Das Fenster, in welchem der Titel des derzeitigen Gebiets gezeigt wird.
     private JTextPane titlePane;
 
@@ -33,23 +33,33 @@ public class GUI extends JFrame {
 
         initializeButtons();
 
-        // Initialisiert das interne Fenster, auf dem Aktionsresultate angezeigt werden.
-        var screen = new JTextPane();
+        // Initialize the text area for output
+        var screen = new JTextArea();
         screen.setEditable(false);
-        // Sehr wichtig, setzt die x/y Koordinaten und die Größe des Fensters.
-        screen.setBounds(120,10, 410, 300);
+        screen.setLineWrap(true);
+        screen.setWrapStyleWord(true);
         screen.setBorder(BorderFactory.createEtchedBorder());
-        add(screen);
+
+        // Create the scroll pane that contains the text area
+        JScrollPane scrollPane = new JScrollPane(screen);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+
+        // Set bounds for the scroll pane, not the text area
+        scrollPane.setBounds(120, 10, 410, 300);
+
+        // Add only the scroll pane to the container
+        add(scrollPane);
+
         this.textPane = screen;
         this.setVisible(true);
 
-        // Erstellt das kleine Fenster, dass den Namen des Areals zeigt.
-        titlePane =  new JTextPane();
+        // Create the title pane
+        titlePane = new JTextPane();
         titlePane.setBounds(120, 310, 410, 20);
         titlePane.setBorder(BorderFactory.createEtchedBorder());
 
-        // Etwas Magie die dafür sorgt, dass der Name des Areals im Textfeld zentriert wird,
-        // anstatt links zu starten.
+        // Center the title text
         StyledDocument doc = titlePane.getStyledDocument();
         SimpleAttributeSet center = new SimpleAttributeSet();
         StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
