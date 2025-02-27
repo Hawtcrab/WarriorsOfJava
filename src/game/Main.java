@@ -3,6 +3,8 @@ package game;
 import game.characters.Player;
 import game.gameactions.ActionConditions;
 import game.gameactions.GameAction;
+import game.location.Station;
+import game.location.Stationen;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -14,7 +16,7 @@ public class Main {
 
     public static GUI gui;
     public static final Player PLAYER = new Player();
-    public static Area currentArea = new Area();
+    public static Station currentArea = Stationen.ESSENHBF;
 
     public static ArrayDeque<String> lastTells = new ArrayDeque<>();
 

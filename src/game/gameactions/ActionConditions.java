@@ -6,7 +6,6 @@ import game.Main;
 // enthält. Finde heraus, wo canWave verwendet wird, und warum.
 public class ActionConditions {
     public static boolean canWave() {
-        if (Main.currentArea.people.isEmpty()) return false;
-        return Main.currentArea.people.stream().anyMatch(p -> !p.isPlayer());
+        return true;
     }
 }

@@ -1,6 +1,7 @@
 package game;
 
 import game.gameactions.GameAction;
+import game.location.Stationen;
 
 import java.util.ArrayList;
 
@@ -29,8 +30,8 @@ public class Actions {
     }
 
     public static void takeTrain() {
-        Main.currentArea = new Area();
-        gui.Tell("Ich nehme die Bahn zur Station..." + Main.currentArea.title + ".");
+        Main.currentArea = Main.currentArea == Stationen.ESSENHBF ? Stationen.VIEHOFERPLATZ : Stationen.ESSENHBF;
+        gui.Tell("Ich nehme die Bahn zur Station..." + Main.currentArea.name + ".");
     }
 
 }

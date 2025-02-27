@@ -8,4 +8,9 @@ public class Station {
         this.name = name;
         this.features = new StationFeature[0];
     }
+
+    public Station(String name, StationFeature[] features) {
+        this.name = name;
+        this.features = features == null ? new StationFeature[0] : features;
+    }
 }

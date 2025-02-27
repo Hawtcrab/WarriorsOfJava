@@ -79,7 +79,7 @@ public class GUI extends JFrame {
         doc.setParagraphAttributes(0, doc.getLength(), center, false);
 
         layeredPane.add(titlePane, Integer.valueOf(1));
-
+        this.titlePane.setText(Main.currentArea.name);
 
         initializeButtons(layeredPane);
 
@@ -115,7 +115,7 @@ public class GUI extends JFrame {
         }
 
         this.textPane.setText(builder.toString());
-        this.titlePane.setText(Main.currentArea.title);
+        this.titlePane.setText(Main.currentArea.name);
 
 
         this.textPane.repaint();
