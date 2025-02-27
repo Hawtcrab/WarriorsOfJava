@@ -9,9 +9,6 @@ public class Area {
     public String title;
     public LinkedList<Person> people;
 
-    // Hier sind zwei Konstrukturen angegeben. Warum?
-    // Wie nennt sich dieses Phänomen in Java?
-
     public Area() {
         this.title = RandomName();
         this.people = new LinkedList<>();
@@ -24,14 +21,11 @@ public class Area {
         this.people.add(Main.PLAYER);
     }
 
-    // Erstellt einen zufälligen Namen für ein Areal. Wie funktioniert Random()?
-    // Warum ist die Methode als "private" markiert?
+
     private static String RandomName() {
         var random = new Random();
-        var noun = new String[] {"Plains", "Fields", "Forest", "Cliffs", "Mountains","River"};
-        var badthing = new String[] {"Woe", "Evil", "Danger", "Terror", "Fear", "Death"};
-        return noun[random.nextInt(noun.length)] + " of "
-                + badthing[random.nextInt(badthing.length)];
+        var noun = new String[] {"Essen Hauptbahnhof", "Viehofer Platz", "Berliner Platz", "Universität Essen", "Rheinischer Platz"};
+        return noun[random.nextInt(noun.length)];
 
     }
 
