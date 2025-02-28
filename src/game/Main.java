@@ -16,14 +16,17 @@ public class Main {
 
     public static GUI gui;
     public static final Player PLAYER = new Player();
-    public static Station currentArea = Stationen.ESSENHBF;
+    public static Station currentArea;
 
     public static ArrayDeque<String> lastTells = new ArrayDeque<>();
 
 
     public static void main(String[] args) {
+        Stationen.InitializeStations();
         LoadActions();
+        currentArea = Stationen.allStations.get(0);
         gui = new GUI();
+
     }
 
 

@@ -1,9 +1,13 @@
 package game;
 
 import game.gameactions.GameAction;
+import game.location.Station;
 import game.location.Stationen;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Random;
 
 import static game.Main.gui;
 
@@ -30,7 +34,9 @@ public class Actions {
     }
 
     public static void takeTrain() {
-        Main.currentArea = Main.currentArea == Stationen.ESSENHBF ? Stationen.VIEHOFERPLATZ : Stationen.ESSENHBF;
+        var rand = new Random();
+        List<Station> available = Stationen.allStations.stream().filter(x -> x != Main.currentArea).toList();
+        Main.currentArea = available.get(rand.nextInt(available.size()));
         gui.Tell("Ich nehme die Bahn zur Station..." + Main.currentArea.name + ".");
     }
 
