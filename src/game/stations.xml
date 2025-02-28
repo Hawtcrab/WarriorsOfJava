@@ -14,15 +14,15 @@
     <Zinkstraße>
         <features></features>
     </Zinkstraße>
-    <Bergeborbeck-Bahnhof>
+    <BergeborbeckBahnhof>
         <features></features>
-    </Bergeborbeck-Bahnhof>
+    </BergeborbeckBahnhof>
     <Fliegenbusch>
         <features></features>
     </Fliegenbusch>
-    <Borbeck-Bahnhof>
+    <BorbeckBahnhof>
         <features></features>
-    </Borbeck-Bahnhof>
+    </BorbeckBahnhof>
     <Germaniaplatz>
         <features></features>
     </Germaniaplatz>
@@ -35,21 +35,21 @@
     <HolsterhauserPlatz>
         <features></features>
     </HolsterhauserPlatz>
-    <Bocholder-Straße>
+    <BocholderStraße>
         <features></features>
-    </Bocholder-Straße>
+    </BocholderStraße>
     <Bergmühle>
         <features></features>
     </Bergmühle>
     <Jahnplatz>
         <features></features>
     </Jahnplatz>
-    <Hamborner-Straße>
+    <HambornerStraße>
         <features></features>
-    </Hamborner-Straße>
-    <Heißener-Straße>
+    </HambornerStraße>
+    <HeißenerStraße>
         <features></features>
-    </Heißener-Straße>
+    </HeißenerStraße>
     <Röntgenstraße>
         <features></features>
     </Röntgenstraße>
@@ -59,18 +59,18 @@
     <AmRiehlpark>
         <features></features>
     </AmRiehlpark>
-    <Kieler-Straße>
+    <KielerStraße>
         <features></features>
-    </Kieler-Straße>
+    </KielerStraße>
     <Kronenberg>
         <features></features>
     </Kronenberg>
     <thyssenkrupp>
         <features></features>
     </thyssenkrupp>
-    <Frohnhauser-Straße>
+    <FrohnhauserStraße>
         <features></features>
-    </Frohnhauser-Straße>
+    </FrohnhauserStraße>
     <Klinikum>
         <features></features>
     </Klinikum>
@@ -134,9 +134,9 @@
     <Aktienstraße>
         <features></features>
     </Aktienstraße>
-    <VonBock-Straße>
+    <VonBockStraße>
         <features></features>
-    </VonBock-Straße>
+    </VonBockStraße>
     <Christianstraße>
         <features></features>
     </Christianstraße>
@@ -170,9 +170,9 @@
     <Uhlenhorst>
         <features></features>
     </Uhlenhorst>
-    <Thüringer-Straße>
+    <ThüringerStraße>
         <features></features>
-    </Thüringer-Straße>
+    </ThüringerStraße>
     <Rennbahn>
         <features></features>
     </Rennbahn>
@@ -188,9 +188,9 @@
     <Gervinusstraße>
         <features></features>
     </Gervinusstraße>
-    <FriedrichEbert-Straße>
+    <FriedrichEbertStraße>
         <features></features>
-    </FriedrichEbert-Straße>
+    </FriedrichEbertStraße>
     <SchloßBroich>
         <features></features>
     </SchloßBroich>
@@ -224,9 +224,9 @@
     <MANTurbo>
         <features></features>
     </MANTurbo>
-    <OBSterkrade-Bahnhof>
+    <OBSterkradeBahnhof>
         <features></features>
-    </OBSterkrade-Bahnhof>
+    </OBSterkradeBahnhof>
     <LuiseAlbertzHalle>
         <features></features>
     </LuiseAlbertzHalle>
@@ -239,9 +239,9 @@
     <WillyBrandtSchule>
         <features></features>
     </WillyBrandtSchule>
-    <Dümptener-Straße>
+    <DümptenerStraße>
         <features></features>
-    </Dümptener-Straße>
+    </DümptenerStraße>
     <DümptenFriedhof>
         <features></features>
     </DümptenFriedhof>
@@ -269,9 +269,9 @@
     <Breilsort>
         <features></features>
     </Breilsort>
-    <BorbeckSüd-Bahnhof>
+    <BorbeckSüdBahnhof>
         <features></features>
-    </BorbeckSüd-Bahnhof>
+    </BorbeckSüdBahnhof>
     <Bockmühle>
         <features></features>
     </Bockmühle>
@@ -302,9 +302,9 @@
     <Höltestraße>
         <features></features>
     </Höltestraße>
-    <Altenessen-Bahnhof>
+    <AltenessenBahnhof>
         <features></features>
-    </Altenessen-Bahnhof>
+    </AltenessenBahnhof>
     <RevierparkNienhausen>
         <features></features>
     </RevierparkNienhausen>
@@ -344,9 +344,9 @@
     <Hanielstraße>
         <features></features>
     </Hanielstraße>
-    <ZollvereinNord-Bahnhof>
+    <ZollvereinNordBahnhof>
         <features></features>
-    </ZollvereinNord-Bahnhof>
+    </ZollvereinNordBahnhof>
     <KaternbergerMarkt>
         <features></features>
     </KaternbergerMarkt>
@@ -452,15 +452,15 @@
     <Gerschede>
         <features></features>
     </Gerschede>
-    <Dellwig-Bahnhof>
+    <DellwigBahnhof>
         <features></features>
-    </Dellwig-Bahnhof>
+    </DellwigBahnhof>
     <Margarethenhöhe>
         <features></features>
     </Margarethenhöhe>
-    <Breslauer-Straße>
+    <BreslauerStraße>
         <features></features>
-    </Breslauer-Straße>
+    </BreslauerStraße>
     <SavignystraßeETEC>
         <features></features>
     </SavignystraßeETEC>
@@ -470,9 +470,9 @@
     <RheinRuhrZentrum>
         <features></features>
     </RheinRuhrZentrum>
-    <Rosendeller-Straße>
+    <RosendellerStraße>
         <features></features>
-    </Rosendeller-Straße>
+    </RosendellerStraße>
     <Eichbaum>
         <features></features>
     </Eichbaum>
@@ -527,9 +527,9 @@
     <Karlsplatz>
         <features></features>
     </Karlsplatz>
-    <GEBuerer-Straße>
+    <GEBuererStraße>
         <features></features>
-    </GEBuerer-Straße>
+    </GEBuererStraße>
     <IISchichtstraße>
         <features></features>
     </IISchichtstraße>
@@ -539,9 +539,9 @@
     <Arenbergstraße>
         <features></features>
     </Arenbergstraße>
-    <Boyer-Straße>
+    <BoyerStraße>
         <features></features>
-    </Boyer-Straße>
+    </BoyerStraße>
     <AlteLandstraße>
         <features></features>
     </AlteLandstraße>
@@ -612,9 +612,9 @@
     <Hauptfriedhof>
         <features></features>
     </Hauptfriedhof>
-    <Tilsiter-Straße>
+    <TilsiterStraße>
         <features></features>
-    </Tilsiter-Straße>
+    </TilsiterStraße>
     <Oppspring>
         <features></features>
     </Oppspring>
@@ -642,7 +642,7 @@
     <Kaiserplatz>
         <features></features>
     </Kaiserplatz>
-    <Dellwig-Bahnhof>
+    <DellwigBahnhof>
         <features></features>
-    </Dellwig-Bahnhof>
+    </DellwigBahnhof>
 </Stationen>

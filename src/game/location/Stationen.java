@@ -27,8 +27,9 @@ public class Stationen {
 
                 if (station.getNodeType() == Node.ELEMENT_NODE) {
                     Element stationElement = (Element) station;
-                    Node nameNode = stationElement.getElementsByTagName("name").item(0);
-                    String name = nameNode.getTextContent();
+                    String name = stationElement.getNodeName();
+                    name = name.replaceAll("(?<=[a-z])([A-Z])", " $1");
+
 
                     allStations.add(new Station(name));
                 }
